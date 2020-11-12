@@ -1,5 +1,5 @@
 # Vue-Modal-App
-This repository contains simple examples of modals, some of them used liv vuelidate.
+This repository contains simple examples of modals, vuelidate used in some of this modals.
 
 ## Project setup
 ```
