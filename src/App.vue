@@ -55,7 +55,6 @@
 import modals from '@/components/UI/Modal.vue';  
 import validateModal from '@/components/ModalValidate.vue';
 import registrationModal from '@/components/ModalRegistration.vue';
-import edit from '@/components/edit.vue';
 
 export default {
   components: 
