@@ -1,20 +1,26 @@
+
 # Vue-Modal-App
-This repository contains simple examples of modals, vuelidate used in some of this modals.
+This repository contains simple examples of modals with vuelidate, also i used vuex, and try combain that with webpack configuration.
 
-## Project setup
-```
+## Build Setup:
+
+``` bash
+# Download repository:
+git clone https://github.com/JakeE1/Vue-Modal-App.git
+
+# Go to the app:
+cd Vue_Modal_App
+
+# Install dependencies:
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Server with hot reload at http://localhost:8081/
+npm run dev
 
-### Compiles and minifies for production
-```
+# Output will be at dist/ folder
 npm run build
 ```
+## License
+[MIT](./LICENSE)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Copyright (c) 2018-present, [Evgenii Vedegis](https://github.com/vedees)

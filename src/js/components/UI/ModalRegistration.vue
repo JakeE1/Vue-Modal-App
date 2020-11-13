@@ -57,7 +57,7 @@
 <script>
 import { required, minLength, email, sameAs } from 'vuelidate/lib/validators'
 
-import modal from '@/components/UI/Modal.vue';
+import modal from '@/components/UI/modals/Modal.vue';
 
 export default {
     components: {modal},

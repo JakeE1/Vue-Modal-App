@@ -44,7 +44,7 @@
 <script>
 import { required, minLength, email } from 'vuelidate/lib/validators'
 
-import modal from '@/components/UI/Modal.vue';
+import modal from '@/components/UI/modals/Modal.vue';
 
 export default {
     components: {modal},
@@ -68,6 +68,10 @@ export default {
         required
     }
   },
+    created () {
+        let view = this.$store.getters.getModalView;
+        console.log(view);
+    }, 
     methods: {
         onSubmit () {
             this.$v.$touch();
@@ -84,7 +88,7 @@ export default {
                 this.$v.$reset();
                 this.$emit('close');
             }
-           
+            
         }
     }
 }
