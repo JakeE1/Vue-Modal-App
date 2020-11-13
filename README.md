@@ -23,4 +23,4 @@ npm run build
 ## License
 [MIT](./LICENSE)
 
-Copyright (c) 2018-present, [Evgenii Vedegis](https://github.com/vedees)
+Copyright (c) 2018-present, [Vlad](https://github.com/JakeE1)
